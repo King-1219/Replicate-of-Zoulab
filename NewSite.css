@@ -1,0 +1,110 @@
+header{
+    border: 1px solid white;
+    background-color: rgb(240, 240, 240);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul div{
+    display: flex;
+}
+
+nav li{
+    padding-right: 15px;
+}
+
+nav a, footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+nav a:hover, footer a:hover{
+    color:black;
+}
+
+section a{
+    text-decoration: none;
+    color: #0044ff
+}
+
+section ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+section li{
+    padding-bottom: 5px;
+}
+
+footer{
+    border: 2px solid;
+    position: absolute;
+    bottom:0;
+    border: 1px solid white;
+    background-color: rgb(240, 240, 240);
+    width:99.89%
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 22px;
+    padding-right: 12px;
+    justify-content: space-between;
+}
+
+#logo{
+    width:350px;
+    height:210px;
+}
+
+#en-tete{
+    display:flex;
+    margin-left: 15px;
+}
+
+#chapitres ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 350px;
+    height: 150px;
+    width: 636px;
+}
+
+#en-tete-deux a:hover{
+    text-decoration: 1px underline;
+}
+
+#chapitres li{
+    margin-top:-40px;
+    margin-left: 15px;
+    margin-right: -13px
+}
+
+#chapitres p{
+    background: #337ab7;
+    border-color: #2e6da4;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 4px;
+    margin-top:-29px;
+    text-align: center;
+    height: 40px
+}
+
+#chapitres p:hover{
+    background-color:rgb(230, 230, 230);
+}
+
+#gauche li{
+    margin-right: 50px;
+}
